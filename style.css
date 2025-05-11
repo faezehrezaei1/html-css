@@ -2,3 +2,44 @@
     margin: 0;
     padding: 0;
 }
+header{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px;
+}
+.header-nav-area{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.nav-links{
+    display: flex;
+    list-style-type: none;
+}
+.sign-up-btn{
+    margin-left: 54px;
+    background-color: black;
+    color: white;
+    padding-top: 13px;
+   padding-left: 22px;
+   padding-right: 22px;
+    border-radius: 7px;
+    padding-bottom: 13px;
+    font-size: 24px;
+    font-weight: 500;
+}
+.nav-link{
+    margin-right: 65px;
+}
+.nav-link a {
+    text-decoration: none;
+}
+.nav-link:last-child {
+    margin-right: 0;
+}
+.logo-img{
+  width: 236px;
+  height: 60px;
+}
