@@ -13,6 +13,10 @@
   src: url(./assets/fonts/Poppins-Italic.ttf);
   font-style: italic;
 }
+/* css variables */
+:root {
+  --padding: 24px;
+}
 
 * {
   margin: 0;
@@ -26,7 +30,18 @@ header {
   flex-direction: row-reverse;
   justify-content: space-between;
   align-items: center;
-  padding: 24px;
+  padding: var(--padding);
+}
+.button-primary {
+  background-color: black;
+  color: white;
+  border-radius: 7px;
+  padding-bottom: 13px;
+  padding-top: 13px;
+  padding-left: 22px;
+  padding-right: 22px;
+  font-size: 24px;
+  font-weight: 500;
 }
 .header-nav-area {
   display: flex;
@@ -39,21 +54,13 @@ header {
 }
 .sign-up-btn {
   margin-left: 54px;
-  background-color: black;
-  color: white;
-  padding-top: 13px;
-  padding-left: 22px;
-  padding-right: 22px;
-  border-radius: 7px;
-  padding-bottom: 13px;
-  font-size: 24px;
-  font-weight: 500;
 }
 .nav-link {
   margin-right: 65px;
 }
 .nav-link a {
   text-decoration: none;
+  color: #000;
 }
 .nav-link:last-child {
   margin-right: 0;
@@ -61,4 +68,21 @@ header {
 .logo-img {
   width: 236px;
   height: 60px;
+}
+.banner {
+  padding: var(--padding);
+  position: relative;
+}
+
+.banner .banner-image {
+  width: 100%;
+  height: auto;
+  max-height: 800px;
+  border-radius: 59px;
+  object-fit: cover;
+}
+.banner-btn {
+  position: absolute;
+  bottom: 90px;
+  left: 125px;
 }
