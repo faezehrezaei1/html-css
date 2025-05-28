@@ -1,15 +1,15 @@
 @font-face {
-  font-family: "Popppins";
+  font-family: 'Popppins';
   src: url(./assets/fonts/Poppins-Bold.ttf);
   font-weight: bold;
 }
 @font-face {
-  font-family: "Popppins";
+  font-family: 'Popppins';
   src: url(./assets/fonts/Poppins-Regular.ttf);
   font-style: normal;
 }
 @font-face {
-  font-family: "Popppins";
+  font-family: 'Popppins';
   src: url(./assets/fonts/Poppins-Italic.ttf);
   font-style: italic;
 }
@@ -23,7 +23,7 @@
   padding: 0;
 }
 body {
-  font-family: "Popppins";
+  font-family: 'Popppins';
 }
 header {
   display: flex;
@@ -85,4 +85,26 @@ header {
   position: absolute;
   bottom: 90px;
   left: 125px;
+}
+.new-arrivals {
+  padding: var(--padding);
+}
+.new-arrivals-title {
+  margin-bottom: 118px;
+}
+.products-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  gap: 90px;
+}
+.product img {
+  width: 100%;
+  height: auto;
+}
+.product-caption {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 24px;
 }
