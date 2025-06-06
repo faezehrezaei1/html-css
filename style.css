@@ -48,7 +48,7 @@ header {
   align-items: center;
   flex-direction: row-reverse;
 }
-.nav-links {
+.nav-links{
   display: flex;
   list-style-type: none;
 }
@@ -116,25 +116,25 @@ header {
   font-weight: bold;
   font-size: 16px;
 }
-.products-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  justify-content: center;
-  gap: 90px;
+.banner{
+    padding: var(--padding);
+  position: relative;
 }
-.product-caption {
+.banner .banner-images{
+
+}
+.nav-links{
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 24px;
+  list-style-type: none;
 }
-.product img {
-  width: 100%;
-  height: auto;
+.nav-link{
+  left:px ;
+  top: 10px;
 }
-.new-arrivals {
-  padding: var(--padding);
+.nav-link a {
+  text-decoration: none;
+  color: #000;
 }
-.new-arrivals-title {
-  margin-bottom: 118px;
+.nav-links{
+  background-color: yellow
 }
