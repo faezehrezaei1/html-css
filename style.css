@@ -57,7 +57,7 @@ header {
   align-items: center;
   flex-direction: row-reverse;
 }
-.nav-links{
+.nav-links {
   display: flex;
   list-style-type: none;
 }
@@ -125,25 +125,71 @@ header {
   font-weight: bold;
   font-size: 16px;
 }
-.banner{
-    padding: var(--padding);
+.banner {
+  padding: var(--padding);
   position: relative;
 }
-.banner .banner-images{
-
+.banner .banner-images {
 }
-.nav-links{
+.nav-links {
   display: flex;
   list-style-type: none;
 }
-.nav-link{
-  left:px ;
+.nav-link {
+  left: px;
   top: 10px;
 }
 .nav-link a {
   text-decoration: none;
   color: #000;
 }
-.nav-links{
-  background-color: yellow
+.nav-links {
+  background-color: yellow;
+}
+footer {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 119px;
+  padding-bottom: 147px;
+  background-color: #000;
+  color: #fff;
+}
+.footer-content {
+  /* display: flex;
+  justify-content: space-between; */
+  display: grid;
+  grid-template-columns: 4fr 8fr;
+}
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  /* width: 100%;
+  max-width: 890px; */
+}
+.footer-links ul {
+  list-style-type: none;
+}
+.animation {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  /* animation-name: color;
+  animation-duration: 4s;
+  animation-iteration-count: 3; */
+  animation: color 4s infinite;
+}
+@keyframes color {
+  from {
+    background-color: red;
+  }
+  to {
+    background-color: yellow;
+  }
+}
+
+@media screen and (max-width: 765px) {
+  .products-grid {
+    grid-template-columns: auto;
+    gap: 40px;
+  }
 }
