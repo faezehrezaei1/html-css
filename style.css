@@ -31,6 +31,15 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: var(--padding);
+  background-color: yellow;
+
+  /* header sticky ing */
+  position: sticky;
+  top: 0;
+  /* 0:default */
+  /* -1:hide */
+  /* 999999999999999999999999999999999999999 */
+  z-index: 1;
 }
 .button-primary {
   background-color: black;
@@ -108,7 +117,7 @@ header {
   align-items: center;
   margin-top: 24px;
 }
-.banner-text{
+.banner-text {
   position: absolute;
   left: 125px;
   bottom: 204px;
