@@ -33,7 +33,7 @@ header {
   padding: var(--padding);
   background-color: yellow;
 
-  /* header sticky */
+  /* header sticky ing */
   position: sticky;
   top: 0;
   /* 0:default */
@@ -156,3 +156,8 @@ header {
     background-color: aqua;
   }
 }
+/* unit */
+/* % */
+/* rem => font-size & paddings & margin */
+/* 1rem = 16px */
+/* px */
